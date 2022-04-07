@@ -1,0 +1,165 @@
+.col{
+  color: black;
+  font-size: 20px;
+}
+
+.position{
+  margin-left:8vw;
+  margin-top: 12vh;
+}
+.line{
+  width: 1532px;
+  height: 20px;
+  border-bottom: 1px solid #ADA7A7;
+  position: absolute;
+  }
+  .line2{
+    width: 1532px;
+    height: 40px;
+    border-bottom: 1px solid #ADA7A7;
+    position: absolute;
+    }
+    .line3{
+      width: 1532px;
+      height: 40px;
+      border-bottom: 1px solid #ADA7A7;
+      position: absolute;
+      }
+      .line4{
+        width: 1532px;
+        height: 40px;
+        border-bottom: 1px solid #ADA7A7;
+        position: absolute;
+        }
+        .line5{
+          width: 1532px;
+          height: 55px;
+          border-bottom: 1px solid #ADA7A7;
+          position: absolute;
+          }
+    
+  .position1{
+    margin-left: 390px;
+    margin-top: -120px;
+  }
+  .position2{
+    margin-left: 390px;
+    margin-top: 10px;
+    color: #8E8585;
+  }
+.rcorners1 {
+  
+  background: #C4C4C4;
+  padding: 20px; 
+  width: 250px;
+  height: 130px;  
+  margin-left:7vw;
+  margin-top: 8vh;
+  
+}
+.rcorners2 {
+  
+  background: #C4C4C4;
+  padding: 20px; 
+  width: 200px;
+  height: 100px;  
+  margin-left:7vw;
+  margin-top: 8vh;
+  
+}
+.rcorners3 {
+  
+  background: #C4C4C4;
+  padding: 20px; 
+  width: 200px;
+  height: 100px;  
+  margin-left:7vw;
+  margin-top: 8vh;
+  
+}
+.rcorners4 {
+  
+  background: #C4C4C4;
+  padding: 20px; 
+  width: 200px;
+  height: 100px;  
+  margin-left:7vw;
+  margin-top: 8vh;
+  
+}
+#content2::before{
+  content: "\a";
+  white-space: pre;
+}
+#content1::after{
+  content: "\a";
+  white-space: pre;
+}
+.sizetext{
+  font-size: 30px;
+}
+p{
+  color: black;
+}
+
+.p1{
+  margin-top:-45vh;
+  margin-left: 25vw;
+  font-size: 25px;
+}
+.p2{
+  margin-top:2vh;
+  margin-left: 25vw;
+  font-size: 25px;
+}
+.p3{
+  margin-top:1vh;
+  margin-left: 25vw;
+  font-size: 25px;
+}
+.p4{
+  margin-top:1vh;
+  margin-left: 25vw;
+  font-size: 25px;
+}
+.p5{
+  margin-top:0vh;
+  margin-left: 25vw;
+  font-size: 25px;
+}
+
+
+
+body{
+  background-color: #ffffff;
+  color: black;
+  
+  
+}
+img {
+  width: 25px;
+  border-radius: 50px;
+  margin-top: -1vh;
+  margin-left: -1vw;
+  }
+.testerja{
+  display: flex;
+  width: 300px;
+  height: 8vh;
+  background-color:#030200;
+  color: white;
+  justify-items: flex-end;
+  text-align:right;
+  align-items: flex-end;
+  font-size: 20px;
+  margin-top: -10vh;
+}
+.topja{
+  background-color: #581414;
+  color: #ffffff;
+  padding: 15px; 
+  text-align: center;
+}
+
+
+
