@@ -1,0 +1,205 @@
+.col{
+  color: black;
+  font-size: 30px;
+}
+
+.position{
+  margin-left:8vw;
+  margin-top: 12vh;
+}
+.rcorners1 {
+  border-radius: 0px;
+  background: #C4C4C4;
+  padding: 20px; 
+  width: 1000px;
+  height: 400px;  
+  margin-left:18vw;
+  margin-top: 8vh;
+  
+}
+.sizetext{
+  font-size: 30px;
+}
+p{
+  color: black;
+}
+
+.p1{
+  margin-top:-45vh;
+  margin-left: 25vw;
+  font-size: 25px;
+}
+.p2{
+  margin-top:2vh;
+  margin-left: 25vw;
+  font-size: 25px;
+}
+.p3{
+  margin-top:1vh;
+  margin-left: 25vw;
+  font-size: 25px;
+}
+.p4{
+  margin-top:1vh;
+  margin-left: 25vw;
+  font-size: 25px;
+}
+.p5{
+  margin-top:0vh;
+  margin-left: 25vw;
+  font-size: 25px;
+}
+.btn{
+  margin-top:5%;
+  margin-left: 70%;
+}
+.buttonPracardpon {
+  background-color: #81A86F;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top:0%;
+  margin-left: 70%;
+}
+
+.inline {
+  display:inline-block;
+  
+}
+.buttoncub {
+  background-color: #C4C4C4;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  color: rgb(2, 0, 0);
+  padding: 10px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top:0%;
+  margin-left: 80%;
+}
+
+#example1 {
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+body{
+  background-color: #ffffff;
+  color: black;
+  
+  
+}
+img {
+  width: 25px;
+  border-radius: 50px;
+  margin-top: -1vh;
+  margin-left: -1vw;
+  }
+.testerja{
+  display: flex;
+  width: 300px;
+  height: 8vh;
+  background-color:#030200;
+  color: white;
+  justify-items: flex-end;
+  text-align:right;
+  align-items: flex-end;
+  font-size: 20px;
+  margin-top: -10vh;
+}
+.topja{
+  background-color: #581414;
+  color: #ffffff;
+  padding: 15px; 
+  text-align: center;
+}
+
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
